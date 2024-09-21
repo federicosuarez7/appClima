@@ -118,6 +118,9 @@ h2{
         width: 35%;
         font-size: 25px;
     }
+    #responseData{
+        font-size: 30px;
+    }
     .descripcionProyecto{
         max-width: 85%;
     }
@@ -133,5 +136,48 @@ h2{
 }
 /* Adaptación a celulares */
 @media only screen and (max-width: 767px){
-
+    .presentacion{
+        font-size: 20px;
+    }
+    .nombre{
+        font-size: 24px;
+    }
+    .container{
+        max-width: 95%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .imgNube{
+        width: 35%;
+    }
+    input[type='text']{
+        font-size: 20px;
+        width: 75%;
+    }
+    button{
+        width: 35%;
+        font-size: 20px;
+    }
+    #responseData{
+        font-size: 20px;
+    }
+    .descripcionProyecto{
+        max-width: 85%;
+    }
+    .descripcionProyecto>h2{
+        font-size: 30px;
+    }
+    .descripcionProyecto>p{
+        font-size: 18px;
+    }
+    .descripcionProyecto>ul>li{
+        font-size: 18px;
+    }
+    .logosTecnologías{
+        width: 18%;
+    }
+    .imgRedes{
+        width: 25%;
+    }
 }
