@@ -90,5 +90,48 @@ h2{
     display: inline-block;
     width: 10%;
     margin: 0% 3% 2% 3%;
+}
+.enlace{
+    color: white;
+}
+/* Adaptación a tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .presentacion{
+        font-size: 40px;
+    }
+    .nombre{
+        font-size: 44px;
+    }
+    .container{
+        max-width: 95%;
+    }
+    h1{
+        font-size: 55px;
+    }
+    .imgNube{
+        width: 15%;
+    }
+    input[type='text']{
+        font-size: 25px;
+    }
+    button{
+        width: 35%;
+        font-size: 25px;
+    }
+    .descripcionProyecto{
+        max-width: 85%;
+    }
+    .descripcionProyecto>h2{
+        font-size: 50px;
+    }
+    .descripcionProyecto>p{
+        font-size: 32px;
+    }
+    .descripcionProyecto>ul>li{
+        font-size: 27px;
+    }
+}
+/* Adaptación a celulares */
+@media only screen and (max-width: 767px){
 
 }
